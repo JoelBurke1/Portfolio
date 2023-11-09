@@ -1,42 +1,55 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Web Desgin</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Korean Cuisine</title>
+   <link rel="stylesheet" type="text/css" href="my-styles.css">
 </head>
-
 <body>
-
-<div> 
-<h1>The Art Of Coding</h1>
-<h3>By: Joel Burke</h3>
-</div>
-<div>
-  <p>Beginning the path of Web Design as a beginner is like stepping into a universe of limitless possibility. It's a language that allows you to interact with machines, 
-giving them instructions to carry out tasks and realize your ideas. 
-The first attempts may look like examining hieroglyphics, 
-with syntax errors acting as your sworn enemies. </p>  
-<p>One line at a time, though, you start to solve the mysteries of code with persistence and patience. A great feeling of accomplishment is felt with every little achievement, 
-whether it's coding your first "Hello, World!" program or figuring out an easy algorithm. 
-Coding is more than just learning a skill; it's about unleashing your imagination, 
-finding solutions to challenges encountered in the real world, 
-and becoming a part of a global community of fellow learners and developers.</p>
-</div>
-<div>
- <p class="inset">"The only way to do great work is to love what you do." - Steve Jobs</p>
-</div>
-  
-<img src=https://www.freeiconspng.com/thumbs/pc-icon/pc-icon-29.png>  
-  
-  
-  
- 
-  <script src="script.js"></script>
-
-
+    <header>
+        <h1>Welcome to Korean Cuisine</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to our Korean cuisine restaurant. We are committed to providing you with the finest Korean dishes made from the freshest ingredients. Experience the flavors of Korea right here!</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to make a reservation, please contact us at:</p>
+            <p>Email: info@koreancuisine.com</p>
+            <p>Phone: +1 (123) 456-7890</p>
+        </section>
+        <section id="menu">
+            <h2>Menu</h2>
+            <div class="menu-item">
+                <img src="kimchi.jpg" alt="Kimchi" />
+                <div>
+                    <h3>Kimchi</h3>
+                    <p>A traditional Korean side dish made from fermented vegetables, mainly cabbage and radishes, seasoned with a mixture of garlic, ginger, and various spices.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="bulgogi.jpg" alt="Bulgogi" />
+                <div>
+                    <h3>Bulgogi</h3>
+                    <p>Bulgogi is a classic Korean dish of thinly sliced marinated beef, grilled to perfection, and typically served with rice, vegetables, and a savory sauce.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="bibimbap.jpg" alt="Bibimbap" />
+                <div>
+                    <h3>Bibimbap</h3>
+                    <p>Bibimbap is a popular Korean rice dish topped with a variety of vegetables, meat (usually beef), and a spicy sauce. It's mixed and enjoyed in a hot stone bowl.</p>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
-
 </html>
