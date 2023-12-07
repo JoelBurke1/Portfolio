@@ -1,0 +1,79 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    padding: 8px;
+}
+
+nav {
+    background-color: #E7E8E7;
+    padding: 10px;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header img {
+  border-radius: 50%;
+  max-width: 150px;
+  height: auto;
+}
+
+h1 {
+  margin: 10px 0 5px;
+}
+
+p {
+  margin: 0;
+}
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2,
+.education h2,
+.experience h2,
+.skills h2 {
+  color: #333;
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+/* Add more styles as needed */
