@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact-styles.css">
+</head>
+<body>
+
+    <header>
+        <img src="Screenshot 2023-12-03 144452.png" alt="Centered Image">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>        
+        </ul>
+    </nav>
+
+    <div class="contact-content">
+        <h2>Contact Information</h2>
+        <p>If you have any questions or inquiries, feel free to reach out to us:</p>
+        <ul>
+            <li>Email: Joel.Burke@mail.citytech.cuny.edu</li>
+        </ul>
+
+        <h2>Contact Form</h2>
+        <p>Use the form below to send us a message:</p>
+
+          <form action="process_form.php" method="post">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+
+              <input type="submit" value="Send Message">
+          </form>
+      </div>
+
+
+    </div>
+
+    <video id="autoplayVideo" autoplay loop muted>
+        <source src="your-video-url.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <script src="script.js"></script>
+</body>
+</html>
